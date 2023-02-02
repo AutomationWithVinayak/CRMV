@@ -4,6 +4,10 @@
   <artifactId>CRMSnehal</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
 
 
 <build>
@@ -17,8 +21,6 @@
              <target>11</target>
          </configuration>
      </plugin>
-
-
 
 
 <plugin>
@@ -35,16 +37,6 @@
         </plugin>
  </plugins>
 </build>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -122,12 +114,13 @@
        <groupId>org.slf4j</groupId>
        <artifactId>slf4j-api</artifactId>
        <version>1.7.5</version>
-   </dependency>
-   <dependency>
+ </dependency>
+
+ <dependency>
        <groupId>org.slf4j</groupId>
        <artifactId>slf4j-log4j12</artifactId>
        <version>1.7.5</version>
-   </dependency>
+ </dependency>
 
 
           <dependency>
