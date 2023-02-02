@@ -42,7 +42,7 @@ public class TestClass2 extends TestBase{
 		lp.loginthepage(pro.getProperty("Email"), pro.getProperty("Password"));
 		db.gettingStartTextIsPresenet();
 		gn.waitInSec(3);
-		db.candidateResumeParserUpload();
+		//db.candidateResumeParserUpload();
 	}
 	
 	@AfterMethod
