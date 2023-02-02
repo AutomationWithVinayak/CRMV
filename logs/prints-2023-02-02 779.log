@@ -1,0 +1,6 @@
+INFO  | 2023-02-02 01:58:09 | [main] base.TestBase (TestBase.java:51) - Browser Lunch Successfully
+INFO  | 2023-02-02 02:02:44 | [main] base.TestBase (TestBase.java:51) - Browser Lunch Successfully
+INFO  | 2023-02-02 02:03:56 | [main] base.TestBase (TestBase.java:51) - Browser Lunch Successfully
+INFO  | 2023-02-02 02:06:47 | [main] base.TestBase (TestBase.java:51) - Browser Lunch Successfully
+INFO  | 2023-02-02 02:23:38 | [main] base.TestBase (TestBase.java:51) - Browser Lunch Successfully
+INFO  | 2023-02-02 02:23:38 | [main] test.TestClass (TestClass.java:28) - Step : 1 browser lunched 

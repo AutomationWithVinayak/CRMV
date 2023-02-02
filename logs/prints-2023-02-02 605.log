@@ -1,0 +1,5 @@
+INFO  | 2023-02-02 01:07:34 | [main] pages.LoginPage (LoginPage.java:54) - email entered
+INFO  | 2023-02-02 01:07:34 | [main] pages.LoginPage (LoginPage.java:56) - pwd entered
+INFO  | 2023-02-02 01:07:34 | [main] pages.LoginPage (LoginPage.java:58) - password entered
+INFO  | 2023-02-02 01:07:34 | [main] pages.LoginPage (LoginPage.java:60) - loginBtn Present
+TRACE | 2023-02-02 01:07:37 | [AsyncHttpClient-1-4] websocketx.WebSocket08FrameEncoder (WebSocket08FrameEncoder.java:131) - Encoding WebSocket Frame opCode=8 length=26

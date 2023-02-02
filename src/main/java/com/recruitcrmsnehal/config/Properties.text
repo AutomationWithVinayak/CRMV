@@ -1,0 +1,10 @@
+#TestData
+
+
+Url = https://app.recruitcrm.io/
+Email  = kutwal.s29@gmail.com
+Password = Snehalcrm@12
+lable = Login to Recruit CRM
+title = Dashboard | Recruit CRM
+ScreenshotFilePath = D:\eclipseworkplace\Appium_WorkPlace\CRMSnehal\FailedTCScreenshot
+ExcelPath =
