@@ -1,0 +1,4 @@
+INFO  | 2023-02-03 01:04:42 | [main] pages.LoginPage (LoginPage.java:53) - pwd entered
+INFO  | 2023-02-03 01:04:42 | [main] pages.LoginPage (LoginPage.java:55) - password entered
+INFO  | 2023-02-03 01:04:42 | [main] pages.LoginPage (LoginPage.java:57) - loginBtn Present
+INFO  | 2023-02-03 01:04:50 | [main] base.Generic (Generic.java:137) - Successfully Scroll On  :- [[ChromeDriver: chrome on WINDOWS (1e3c9a09138882a96cf0be8c23119601)] -> xpath: (//div[@id="sTest-sortByTaDropdownBtn"])[4]//following::div[6]//a//span[2]]

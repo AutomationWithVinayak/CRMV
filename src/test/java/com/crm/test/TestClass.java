@@ -44,7 +44,7 @@ public class TestClass extends TestBase {
 	@AfterClass
 	public void tearDown() {
 		
-		gn.threadWait(3000);
+		gn.waitInSec(3);
 		driver.quit();
 	}
 	

@@ -1,6 +1,0 @@
-INFO  | 2023-02-02 01:15:50 | [main] pages.LoginPage (LoginPage.java:54) - email entered
-INFO  | 2023-02-02 01:15:50 | [main] pages.LoginPage (LoginPage.java:56) - pwd entered
-INFO  | 2023-02-02 01:15:50 | [main] pages.LoginPage (LoginPage.java:58) - password entered
-INFO  | 2023-02-02 01:15:50 | [main] pages.LoginPage (LoginPage.java:60) - loginBtn Present
-INFO  | 2023-02-02 01:28:55 | [main] base.TestBase (TestBase.java:51) - Browser Lunch Successfully
-INFO  | 2023-02-02 01:28:55 | [main] test.TestClass (TestClass.java:28) - Step : 1 browser lunched 

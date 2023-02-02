@@ -11,21 +11,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.recruitcrmsnehal.pages.LoginPage;
 import com.recruitcrmsnehal.util.Util;
 
 public class TestBase {
 
 	
 	
-	public static final Logger log = LogManager.getLogger(LoginPage.class);
+	public static final Logger log = LogManager.getLogger(new Object().getClass().getName());
 	
 	public static WebDriver  driver ;
 	public static Properties pro;
 	
 	public TestBase() throws IOException{
 		
-		FileInputStream file = new FileInputStream ("D:\\eclipseworkplace\\Appium_WorkPlace\\CRMSnehal\\src\\main\\java\\com\\recruitcrmsnehal\\config\\Properties.text");
+		FileInputStream file = new FileInputStream ("D:\\eclipseworkplace\\CRM\\CRMSnehal\\src\\main\\java\\com\\recruitcrmsnehal\\config\\Properties.text");
 		
 		 pro = new Properties();
 		 pro.load(file);
@@ -46,11 +45,12 @@ public class TestBase {
 		driver.get(pro.getProperty("Url"));
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Util.IMPLICITLY_WAIT,TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(Util.PAGE_LOAD,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Util.IMPLICITLY_WAIT, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(Util.PAGE_LOAD, TimeUnit.SECONDS);
 		log.info("Browser Lunch Successfully");
 		
 	}
+	
 	
 	
 	

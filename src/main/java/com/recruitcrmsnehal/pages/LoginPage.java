@@ -7,10 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.recruitcrmsnehal.base.Generic;
-import com.recruitcrmsnehal.base.TestBase;
 
 
-public class LoginPage extends TestBase {
+public class LoginPage extends Generic {
 
 	
 	public LoginPage() throws IOException {
@@ -31,7 +30,6 @@ public class LoginPage extends TestBase {
 	
 	
 	
-	
 	public void verifyUrl(String url ) {
 		
 		String actualUrl =driver.getCurrentUrl();
@@ -48,28 +46,22 @@ public class LoginPage extends TestBase {
 	public void loginthepage(String userid , String pass ) {
 	
 		
-		if(email.isDisplayed() == true ) { log.info("email Element Present");}
-		
+		if(email.isDisplayed() == true ) { log.info("email input tab  Present");}
 		email.sendKeys(userid);   log.info("email entered");
 		
-		if(pwd.isDisplayed() == true ) {  log.info("pwd entered"); }
-		
+		if(pwd.isDisplayed() == true ) {  log.info("pwd  input tab Present"); }
 		pwd.sendKeys(pass);  log.info("password entered"); 
 		
 		if(loginBtn.isDisplayed() == true) {   log.info("loginBtn Present");}
+		loginBtn.click();  log.info("Clicked on loginBtn ");
 		
-		loginBtn.click();
+		
 			
 			
 	}
 
 	
-//	public void lable(String lbl) {
-//		
-//		gn.getDynamicText("Login to Recruit CRM").isDisplayed();
-//		log.info("lable is  display");
-//		
-//	}
+	
 	
 	public void fistPageTitleVerify(String exTitle) {
 		

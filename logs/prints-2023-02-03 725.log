@@ -1,0 +1,2 @@
+INFO  | 2023-02-03 00:55:26 | [main] pages.DashBordPage (DashBordPage.java:68) - Scroll On element :- [[ChromeDriver: chrome on WINDOWS (07bd1f295277f6bc4d9f458e05001ddc)] -> xpath: (//div[@id="sTest-sortByTaDropdownBtn"])[4]//following::div[6]//a//span[2]]
+INFO  | 2023-02-03 00:55:26 | [main] pages.DashBordPage (DashBordPage.java:69) - Click On element :- [[ChromeDriver: chrome on WINDOWS (07bd1f295277f6bc4d9f458e05001ddc)] -> xpath: (//div[@id="sTest-sortByTaDropdownBtn"])[4]//following::div[6]//a//span[2]]

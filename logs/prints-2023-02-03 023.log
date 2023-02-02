@@ -1,0 +1,4 @@
+INFO  | 2023-02-03 00:49:22 | [main] pages.DashBordPage (DashBordPage.java:69) - Click On element :- [[ChromeDriver: chrome on WINDOWS (3858d7a66626fb0035622fdc57cf8bac)] -> xpath: (//div[@id="sTest-sortByTaDropdownBtn"])[4]//following::div[6]//a//span[2]]
+INFO  | 2023-02-03 00:52:06 | [main] base.TestBase (TestBase.java:50) - Browser Lunch Successfully
+INFO  | 2023-02-03 00:52:06 | [main] pages.LoginPage (LoginPage.java:49) - email Element Present
+INFO  | 2023-02-03 00:52:06 | [main] pages.LoginPage (LoginPage.java:51) - email entered

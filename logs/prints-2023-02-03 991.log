@@ -1,0 +1,2 @@
+INFO  | 2023-02-03 01:20:34 | [main] base.Generic (Generic.java:137) - Successfully Scroll On  :- [[ChromeDriver: chrome on WINDOWS (1d1baa4c4b8921fc6794cf0b002ae86e)] -> xpath: (//div[@id="sTest-sortByTaDropdownBtn"])[4]//following::div[6]//a//span[2]]
+INFO  | 2023-02-03 01:20:35 | [main] pages.DashBordPage (DashBordPage.java:68) - Scroll On element :- [[ChromeDriver: chrome on WINDOWS (1d1baa4c4b8921fc6794cf0b002ae86e)] -> xpath: (//div[@id="sTest-sortByTaDropdownBtn"])[4]//following::div[6]//a//span[2]]

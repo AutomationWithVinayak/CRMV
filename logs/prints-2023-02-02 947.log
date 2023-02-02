@@ -1,0 +1,5 @@
+INFO  | 2023-02-02 20:49:24 | [main] pages.DashBordPage (DashBordPage.java:30) - click on CandidateBtn 
+INFO  | 2023-02-02 20:49:26 | [main] test.Listnerss (Listnerss.java:59) - Test case Failed :- ImportCandidatesFileUpload
+INFO  | 2023-02-02 20:49:38 | [main] base.TestBase (TestBase.java:50) - Browser Lunch Successfully
+INFO  | 2023-02-02 20:49:38 | [main] test.Listnerss (Listnerss.java:30) - Execution start
+INFO  | 2023-02-02 20:49:38 | [main] pages.LoginPage (LoginPage.java:49) - email Element Present

@@ -1,0 +1,3 @@
+INFO  | 2023-02-02 20:15:58 | [main] base.Generic (Generic.java:136) - Successfully Scroll On  :- [[ChromeDriver: chrome on WINDOWS (e2fd30330f914fe5c63c4256a3daccfe)] -> xpath: //h4[contains(text(),'Candidate Pipeline By Recruiter Assigned')]]
+INFO  | 2023-02-02 20:15:58 | [main] pages.DashBordPage (DashBordPage.java:45) - Scroll On Element :- [[ChromeDriver: chrome on WINDOWS (e2fd30330f914fe5c63c4256a3daccfe)] -> xpath: //h4[contains(text(),'Candidate Pipeline By Recruiter Assigned')]]
+INFO  | 2023-02-02 20:48:59 | [main] base.TestBase (TestBase.java:50) - Browser Lunch Successfully

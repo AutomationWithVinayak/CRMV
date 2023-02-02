@@ -1,0 +1,4 @@
+INFO  | 2023-02-03 01:05:11 | [main] pages.DashBordPage (DashBordPage.java:72) - Element Selected:- Selected from :- By.xpath: //div[@id="dashBoardJobWidget"]//div[contains(@class,"dropdown dropdown-menu-animation select-field select-dropdown is-icon-right is-a")]//div[3]//div//a
+INFO  | 2023-02-03 01:15:37 | [main] base.TestBase (TestBase.java:50) - Browser Lunch Successfully
+INFO  | 2023-02-03 01:15:37 | [main] pages.LoginPage (LoginPage.java:49) - email Element Present
+INFO  | 2023-02-03 01:15:38 | [main] pages.LoginPage (LoginPage.java:51) - email entered

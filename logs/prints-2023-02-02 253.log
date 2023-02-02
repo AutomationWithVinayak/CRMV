@@ -1,0 +1,6 @@
+INFO  | 2023-02-02 20:48:59 | [main] test.TestClass (TestClass.java:28) - Step : 1 browser lunched 
+INFO  | 2023-02-02 20:48:59 | [main] test.Listnerss (Listnerss.java:30) - Execution start
+INFO  | 2023-02-02 20:48:59 | [main] pages.LoginPage (LoginPage.java:39) - Url is matched
+INFO  | 2023-02-02 20:49:00 | [main] pages.LoginPage (LoginPage.java:49) - email Element Present
+INFO  | 2023-02-02 20:49:00 | [main] pages.LoginPage (LoginPage.java:51) - email entered
+INFO  | 2023-02-02 20:49:01 | [main] pages.LoginPage (LoginPage.java:53) - pwd entered
