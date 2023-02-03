@@ -48,7 +48,7 @@ public class DashBordPage  extends Generic{
 	
 	public void gettingStartTextIsPresenet() {
 		
-		gn.textIsDisplay("Getting Started");   log.info("text is Display "); 
+		gn.textIsDisplay("Getting Started");   log.info("text is Display ");
 		
 	}
 	

@@ -1,0 +1,3 @@
+INFO  | 2023-02-03 01:20:37 | [main] pages.DashBordPage (DashBordPage.java:70) - Click On element :- [[ChromeDriver: chrome on WINDOWS (1d1baa4c4b8921fc6794cf0b002ae86e)] -> xpath: (//div[@id="sTest-sortByTaDropdownBtn"])[4]//following::div[6]//a//span[2]]
+INFO  | 2023-02-03 01:20:40 | [main] base.Generic (Generic.java:217) - SelectedThis Element is at index number :- 0
+INFO  | 2023-02-03 01:20:40 | [main] pages.DashBordPage (DashBordPage.java:72) - Element Selected:- Selected from :- By.xpath: //div[@class="dropdown dropdown-menu-animation select-field select-dropdown is-icon-right is-active is-mobile-modal"]//a

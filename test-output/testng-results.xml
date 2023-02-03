@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-03T01:20:16 IST" name="Default suite" finished-at="2023-02-03T01:20:40 IST" duration-ms="24188">
+  <suite started-at="2023-02-03T20:47:44 IST" name="Default suite" finished-at="2023-02-03T20:47:44 IST" duration-ms="101">
     <groups>
     </groups>
-    <test started-at="2023-02-03T01:20:16 IST" name="Default test" finished-at="2023-02-03T01:20:40 IST" duration-ms="24188">
-      <class name="com.crm.test.TestClass4">
-        <test-method is-config="true" signature="setUpStart()[pri:0, instance:com.crm.test.TestClass4@76a36b71]" started-at="2023-02-03T01:20:16 IST" name="setUpStart" finished-at="2023-02-03T01:20:27 IST" duration-ms="11540" status="PASS">
+    <test started-at="2023-02-03T20:47:44 IST" name="Default test" finished-at="2023-02-03T20:47:44 IST" duration-ms="101">
+      <class name="com.crm.test.TestClass5">
+        <test-method signature="logTrial()[pri:0, instance:com.crm.test.TestClass5@3e8f7922]" started-at="2023-02-03T20:47:44 IST" name="logTrial" finished-at="2023-02-03T20:47:44 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpStart -->
-        <test-method signature="appliedDropDownSelect()[pri:0, instance:com.crm.test.TestClass4@76a36b71]" started-at="2023-02-03T01:20:27 IST" name="appliedDropDownSelect" finished-at="2023-02-03T01:20:40 IST" duration-ms="12581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appliedDropDownSelect -->
-      </class> <!-- com.crm.test.TestClass4 -->
+        </test-method> <!-- logTrial -->
+      </class> <!-- com.crm.test.TestClass5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -55,8 +55,6 @@ public class LoginPage extends Generic {
 		if(loginBtn.isDisplayed() == true) {   log.info("loginBtn Present");}
 		loginBtn.click();  log.info("Clicked on loginBtn ");
 		
-		
-			
 			
 	}
 

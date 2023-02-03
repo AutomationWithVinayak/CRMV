@@ -1,7 +1,9 @@
 package com.recruitcrmsnehal.base;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -176,7 +178,7 @@ public class Generic extends TestBase{
 			log.info(element +" is not  Display");
 		}
 
-		return;		
+			
 	}
 
 
@@ -213,8 +215,53 @@ public class Generic extends TestBase{
 		}	
 	}
 
+	
+	
+	
+
+	/**
+	 * 
+	 **@Authour :- Vinayak ,This Method Is use to Handal iframe by element (xpath) 
+	 * 
+	 */ 
 
 
-
+    public void focusOnIframe(WebElement element) {
+    	
+    	driver.switchTo().frame(element);
+    	
+    log.info("focus on iframe : -  "+element);
+    	
+    }
+    
+    /**
+	 * 
+	 **@Authour :- Vinayak ,This Method Is use to Handal Windows by Id (Id Is in string format)
+	 * 
+	 */   
+    
+   public void windowHandal(String windowId) {
+	   
+	   driver.switchTo().window(windowId);
+	   
+   }
+  
+   
+   /**
+	 * 
+	 **@Authour :- Vinayak ,This Method Is use to get  Windows handal id by passing int para (its ined number of id which you want if you are on main first page and click on element and one tab is open then its index number is 1 )
+	 */ 
+   
+   
+   public static String getWindowHandal(int i) {
+	   
+	   Set<String> ids=driver.getWindowHandles();
+	   ArrayList<String> a = new ArrayList<String>(ids);
+	   String  windowId = a.get(i);
+	   return windowId ;
+	   
+   }
+    
+	
 
 }
