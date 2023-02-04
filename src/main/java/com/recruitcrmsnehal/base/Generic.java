@@ -137,10 +137,7 @@ public class Generic extends TestBase{
 		//	  
 		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", element);
 		log.info("Successfully Scroll On  :- "+ element);
-
-
-
-
+		
 	}
 
 
@@ -157,6 +154,7 @@ public class Generic extends TestBase{
 		Actions ac = new Actions(driver);
 		ac.moveToElement(target).build().perform();	  
 		return;
+		
 	}
 
 
@@ -203,6 +201,8 @@ public class Generic extends TestBase{
 
 
 	public void dropDowm(By element , String ElementTextOrName ) {
+		
+		
 
 		List<WebElement> listOfDropDown = driver.findElements(element);
 		int size = listOfDropDown.size();
