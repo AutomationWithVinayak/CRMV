@@ -1,0 +1,5 @@
+INFO  | 2023-02-04 17:25:15 | [main] pages.DashBordPage (DashBordPage.java:51) - text is Display 
+INFO  | 2023-02-04 17:25:18 | [main] test.Listnerss (Listnerss.java:38) - Test case Passed :- ImportCandidatesFileUpload
+INFO  | 2023-02-04 17:25:31 | [main] base.TestBase (TestBase.java:50) - Browser Lunch Successfully
+INFO  | 2023-02-04 17:25:31 | [main] test.Listnerss (Listnerss.java:30) - Execution start
+INFO  | 2023-02-04 17:25:31 | [main] pages.LoginPage (LoginPage.java:49) - email input tab  Present

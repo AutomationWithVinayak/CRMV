@@ -35,13 +35,13 @@ public class DashBordPage  extends Generic{
 	
 	
 	
-	public void  candidateResumeParserUpload() {
-		
-		candidateBtn.click(); log.info("click on CandidateBtn ");	
-		gn.clickOnElement(resumeBtn); //resumeBtn.click();
-		resumeParserUpload.sendKeys(path); log.info("FileUploadSuccesfully");
-		
-	}
+//	public void  candidateResumeParserUpload() {
+//		
+//		candidateBtn.click(); log.info("click on CandidateBtn ");	
+//		gn.clickOnElement(resumeBtn); //resumeBtn.click();
+//		resumeParserUpload.sendKeys(path); log.info("FileUploadSuccesfully");
+//		
+//	}
 	
 	
 	

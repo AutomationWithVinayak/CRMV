@@ -1,0 +1,6 @@
+INFO  | 2023-02-04 17:24:56 | [main] test.Listnerss (Listnerss.java:30) - Execution start
+INFO  | 2023-02-04 17:24:56 | [main] pages.LoginPage (LoginPage.java:39) - Url is matched
+INFO  | 2023-02-04 17:24:56 | [main] pages.LoginPage (LoginPage.java:49) - email input tab  Present
+INFO  | 2023-02-04 17:24:57 | [main] pages.LoginPage (LoginPage.java:50) - email entered
+INFO  | 2023-02-04 17:24:57 | [main] pages.LoginPage (LoginPage.java:52) - pwd  input tab Present
+INFO  | 2023-02-04 17:24:57 | [main] pages.LoginPage (LoginPage.java:53) - password entered

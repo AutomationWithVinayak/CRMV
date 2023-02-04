@@ -1,0 +1,6 @@
+INFO  | 2023-02-03 20:45:36 | [main] base.Generic (Generic.java:239) - message  trail
+INFO  | 2023-02-03 20:45:37 | [main] base.Generic (Generic.java:239) - message  trail
+INFO  | 2023-02-03 20:47:11 | [main] base.Generic (Generic.java:239) - Objectmessage  trail
+INFO  | 2023-02-03 20:47:44 | [main] base.Generic (Generic.java:239) - java.lang.Objectmessage  trail
+INFO  | 2023-02-04 17:24:56 | [main] base.TestBase (TestBase.java:50) - Browser Lunch Successfully
+INFO  | 2023-02-04 17:24:56 | [main] test.TestClass (TestClass.java:28) - Step : 1 browser lunched 
